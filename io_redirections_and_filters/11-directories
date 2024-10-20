@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ARd | wc -l
+find /./ -type d | ls -A | wc -l
